@@ -18,20 +18,32 @@ public class Condicionales {
     {
         float numero1, numero2;
         
-        numero1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
-        numero2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese otro numero"));
+       numero1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
+       numero2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese otro numero"));
         
-        if (numero1 == numero2) //Aqui va una condicion
+       if (numero1 == numero2) //Aqui va una condicion
     {  
       //Si la condicion se cumple se ejecuta este codigo 
       JOptionPane.showMessageDialog(null, "Son Iguales");
     }
     else//Si no se cumple la condicion se ejecuta esto
     { 
-            
+      JOptionPane.showMessageDialog(null, "Son Diferentes");
+      if (numero1 > numero2)
+    { 
+      JOptionPane.showMessageDialog(null, "Numero"+numero1+"es mayor");    
+    }
+    else
+    {
+    JOptionPane.showMessageDialog(null, "Numero"+numero1+"es mayor");
+    
+    }
+          
+    
+    }
+    
+       
+       
     }
         
-        
-        
     }
-}
