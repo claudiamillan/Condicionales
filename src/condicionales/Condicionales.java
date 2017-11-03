@@ -35,7 +35,7 @@ public class Condicionales {
     }
     else
     {
-    JOptionPane.showMessageDialog(null, "Numero"+numero1+"es mayor");
+    JOptionPane.showMessageDialog(null, "Numero"+numero2+"es mayor");
     
     }
           
